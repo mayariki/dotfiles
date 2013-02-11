@@ -1,0 +1,27 @@
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = emacs
+  pager = lv
+
+[grep]
+  lineNumber = true
+
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+
+[i18n]
+  commitencoding = UTF-8
+
+[alias]
+  ci = commit
+  co = checkout
+  cia = commit --amend -C HEAD
+  st = status
+  dic = diff --cached
+  br = branch
+
+[include]
+  path = ~/.gitconfig_local
